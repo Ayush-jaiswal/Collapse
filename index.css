@@ -1,0 +1,57 @@
+
+
+html{
+	height: 100%;
+}
+body{
+	height: 98%;
+}
+.container{
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	padding: 10px;
+	height: 97%;
+	
+}
+
+.portion{
+	width: 50%;
+	align-self: center;
+}
+.upper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+	border:1px solid #cccccc;
+}
+.lower{
+	padding: 20px;
+	text-align: center;
+	border:1px solid #cccccc;
+	background-color: #ffe6e6;
+	display: none;
+
+
+}
+
+
+button{
+	background-color: #ffb3ff;
+	padding: 15px 32px;
+	border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 700px){
+	.portion{
+		width: 100%;
+	}
+}
